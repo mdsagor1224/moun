@@ -1,0 +1,562 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+p{
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0;
+    font-weight: 600;
+    color: #404040;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+}
+.theme-bg{
+    background: #505cfd;
+    border-radius: 5px;
+}
+.black-bg{
+    background-color: #343434;
+}
+.pb-100{
+    padding-bottom: 100px;
+}
+.pb-60{
+    padding-bottom: 60px;
+}
+.pb-70{
+    padding-bottom: 70px;
+}
+.pb-40{
+    padding-bottom: 40px;
+}
+.pb-30{
+    padding-bottom: 30px;
+}
+.pb-50{
+    padding-bottom: 50px;
+}
+.pt-70{
+    padding-top: 70px;
+}
+.pt-100{
+    padding-top: 100px;
+}
+.pt-90{
+    padding-top: 90px;
+}
+.pt-60{
+    padding-top: 60px;
+}
+
+.mb-60{
+    margin-bottom: 60px;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+
+
+/*===========================================
+01.                header area 
+=============================================*/
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+.header-area{
+    padding: 0 40px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.main-menu ul li{
+    display: inline-block;
+    margin-left: 40px;
+}
+.main-menu ul li a {
+    color: #343434;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    list-style: 1;
+    padding: 44px 0;
+}
+
+.hire-btn > a{
+    border: 1px solid #505cfd;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 15px 55px;
+}
+.hire-btn{
+    margin-left: 35px;
+    margin-top: 30px;
+}
+
+
+/*===========================================
+02.                slider area
+=============================================*/
+.single-slider{
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+.slider-icon{
+    margin-bottom: 20px;
+}
+.slider-icon a{
+    color: #505cfd;
+    font-size: 18px;
+    margin: 0 15px;
+}
+.slider-inner h2{
+    font-size: 72px;
+    font-weight: 600;
+    color: #595959;
+    margin-bottom: 15px;
+}
+.slider-inner p{
+    color: #343434;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+.btn{
+    border: 1px  solid #505cfd;
+    padding: 15px 40px;
+    color: #595959;
+    border-radius: 30px;
+    font-weight: 600;
+    font-family: poppins;
+    font-size: 14px;
+}
+
+/*===========================================
+03.              features area
+=============================================*/
+.features-area {
+    margin-top: -100px;
+    z-index: 99;
+    position: relative;
+}
+.single-features{
+    padding: 60px 0;
+}
+.single-features i{
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 30px;
+    display: block;
+}
+.single-features h3{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.single-features p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 25px;
+    margin: 0;
+}
+
+/*===========================================
+04.             about area
+=============================================*/
+.about-text h3{
+    font-size: 32px;
+    line-height: 44px;
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+.about-text h3::before{
+    background: #505cfd;
+    height: 2px;
+    width: 50px;
+    content: "";
+    position: absolute;
+    bottom: 0;
+}
+.about-text p{
+    margin-bottom: 40px;
+}
+
+/*===========================================
+               Section Title
+=============================================*/
+.area-title h3{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.area-title p{
+    margin-bottom: 0;
+}
+
+
+/*===========================================
+05.            subcribe area
+=============================================*/
+.subcribe-form input{
+    width: 25%;
+    border: 0;
+    background: #fff;
+    height: 45px;
+    padding: 0 20px;
+    margin-right: 10px;
+    border-radius: 30px;
+}
+
+.subcribe-form button{
+    background: #505cfd;
+    color: #fff;
+    border: 0;
+    height: 45px;
+    padding: 0 40px;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+/*===========================================
+06.            service area
+=============================================*/
+.service-wrapper{
+    border: 1px solid #ddd;
+    padding: 50px 30px;
+    transition: .3s;
+}
+.service-wrapper:hover{
+    background: #222;
+    border: #222;
+}
+.service-wrapper i{
+    font-size: 48px;
+    color: #505cfd;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+.service-wrapper h3{
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.service-wrapper:hover h3{
+    color: #fff;
+}
+.service-wrapper:hover .btn{
+    color: #fff;
+}
+.service-wrapper:hover p{
+    color: #777;
+}
+.service-wrapper p{
+    margin-bottom: 60px;
+}
+
+/*===========================================
+07.            pricing  area
+=============================================*/
+.pricing-item{
+    width: 28%;
+}
+.pricing-area{
+    background-color: #e7e8fe;
+}
+.pricing-wrapper{
+    border: 1px solid #cfd1fc;
+    transition: .3s;
+}
+.pricing-wrapper:hover{
+    box-shadow: 0px 15px 30px 0px rgba(80, 92,253, 0.1);
+    background: #fff;
+}
+.pricing-wrapper h3{
+    font-size: 22px;
+    padding: 40px 0;
+    margin: 0;
+    border: 1px solid #cfd1fc;
+}
+.pricing-wrapper span{
+    font-size: 40px;
+    font-weight: 600;
+    color: #505cfd;
+    margin-top: 21px;
+    display: inline-block;
+    line-height: 1;
+}
+.pricing-wrapper span span{
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    top: -20px;
+}
+.pricing-wrapper ul{
+    margin: 40px 0;
+}
+.pricing-wrapper ul li{
+    line-height: 36px;
+    color: #595959;
+}
+
+/*===========================================
+08.            counter  area
+=============================================*/
+
+.counter-wrapper i{
+    font-size: 30px;
+    margin-bottom: 30px;
+    display: block;
+    color: #fff;
+}
+.counter-wrapper span{
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 10px;
+    display: block;
+}
+.counter-wrapper p{
+    margin: 0;
+    color: #fff;
+}
+
+/*===========================================
+09.            team  area
+=============================================*/
+.team-img img {
+    width: 100%;
+}
+.team-wrapper {
+    position: relative;
+}
+.team-img:before {
+    position: absolute;
+    content: "";
+    background: #fff;
+    left: 30px;
+    top: 30px;
+    opacity: 0;
+    right: 30px;
+    bottom: 30px;
+    transition: .3s;
+    visibility: hidden;
+}
+.team-wrapper:hover .team-img:before{
+    opacity: .5;
+    visibility: visible;
+}
+.team-info {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    transition: .3s;
+    opacity: 0;
+    visibility: hidden;
+}
+.team-wrapper:hover .team-info{
+    opacity: 1;
+    visibility: visible;
+}
+.team-info h3{
+    font-size: 22px;
+    margin-bottom: 4px;
+}
+.team-icon{
+    margin-top: 6px;
+}
+.team-icon a{
+    color: #555;
+    margin: 0 5px;
+}
+
+/*===========================================
+10.            blog  area
+=============================================*/
+.blog-content{
+    margin-top: 15px;
+}
+.blog-content h3 a{
+    font-size: 22px;
+    color: #444;
+}
+.blog-content p{
+    margin-bottom: 35px;
+}
+.blog-meta{
+    margin-bottom: 14px;
+}
+.meta-line{
+    background: #444;
+    height: 2px;
+    width: 30px;
+    display: inline-block;
+    position: relative;
+    top: -3px;
+    margin-left: 10px;
+}
+
+
+/*===========================================
+11.            testimonial area
+=============================================*/
+.testimonial-area {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.testimonial-item {
+    background: rgba(255,255,255,.9);
+    padding: 60px 150px;
+}
+.testimonial-name {
+    margin-bottom: 15px;
+}
+
+.testimonial-name h4 {
+    color: #505cfd;
+    font-size: 22px;
+}
+.testimonial-active .slick-dots{
+    margin-top: -40px;
+    z-index: 9;
+    position: relative;
+}
+.testimonial-active .slick-dots li{
+    display: inline-block;
+    margin: 0 5px;
+}
+.testimonial-active .slick-dots li button{
+    font-size: 0;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    padding: 0;
+    border: 0;
+    border: 2px solid #444;
+}
+.testimonial-active .slick-dots li.slick-active button{
+    background: #444;
+}
+
+
+/*===========================================
+12.            footer area
+=============================================*/
+.footer-widget h3{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 30px;
+}
+.contact-list li{
+    line-height: 36px;
+    color: #777;
+}
+.contact-list{
+    margin-bottom: 30px;
+}
+
+.footer-icon a{
+    color: #fff;
+    margin-left: 10px;
+}
+
+.footer-link li a{
+    color: #777;
+    line-height: 36px;
+}
+.footer-link li a::before {
+    content: "\f101";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    margin-right: 5px;
+}
+ul.footer-link li {
+    width: 50%;
+    float: left;
+}
+
+.news-title h4 a {
+    color: #777;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.news-title span {
+    color: #777;
+}
+
+.news-thumb {
+    float: left;
+}
+
+.news-title {
+    overflow: hidden;
+    padding-left: 15px;
+}
+
+.news-title h4 {
+    line-height: 1;
+    margin: 0;
+}
+
+.footer-blog li{
+    margin-bottom: 20px;
+}
+.footer-blog li:last-child{
+    margin-bottom: 0;
+}
+.copyright-text p {
+    color: #777;
+    margin: 0;
+}
+
+.footer-menu ul li a {
+    color: #777;
+}
+
+.footer-menu ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.copyright-border {
+    border-top: 1px solid #777;
+    padding: 30px 0;
+}
